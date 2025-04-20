@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours Disponibles - Plateforme de Cours</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Plateforme de Cours en Ligne</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="cours.html">Cours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cours Disponibles</h2>
+        
+        <div class="filters">
+            <input type="text" id="search" placeholder="Rechercher un cours...">
+            <select id="filter">
+                <option value="all">Tous les cours</option>
+                <option value="informatique">Informatique</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="physique">Physique</option>
+            </select>
+        </div>
+
+        <div class="course-list" id="courseList">
+            <!-- Les cours seront chargés dynamiquement via JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Plateforme de Cours - Université XYZ</p>
+    </footer>
+
+    <script src="assets/js/courses.js"></script>
+</body>
+</html>
