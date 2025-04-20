@@ -1,0 +1,34 @@
+[
+    {
+        "titre": "Introduction à la Programmation",
+        "professeur": "Dr. Dupont",
+        "matiere": "informatique",
+        "description": "Ce cours introduit les concepts de base de la programmation avec Python.",
+        "fichiers": [
+            {
+                "nom": "intro-programmation.pdf",
+                "type": "Support de Cours"
+            },
+            {
+                "nom": "tp1-programmation.pdf",
+                "type": "TP 1"
+            }
+        ]
+    },
+    {
+        "titre": "Algèbre Linéaire",
+        "professeur": "Prof. Martin",
+        "matiere": "mathematiques",
+        "description": "Cours fondamental sur les espaces vectoriels et applications linéaires.",
+        "fichiers": [
+            {
+                "nom": "algebre-lineaire.pdf",
+                "type": "Support de Cours"
+            },
+            {
+                "nom": "exercices-algebre.pdf",
+                "type": "Exercices"
+            }
+        ]
+    }
+]
